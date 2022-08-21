@@ -1,0 +1,26 @@
+Title: Natural Selection Sim
+Desc: Simulation of fish undergoing speciation due to differences in predation across two environments
+
+Concept:
+- Have red fish (predators) and light blue/grey fish (prey)
+- Space will be split into two background types: Blue and white
+- Light blue fish will have lower chance of being eaten on blue spaces
+- Grey fish will have lower chance of being eaten on white spaces
+- Prey fish will have 2 alleles for color
+- Blue coloration will be dominant
+- Every fish will have 2 parents and inheret genes for coloration
+- Blue will be dominant allele
+- (Might want to display heterzygous fish as another color)
+- If/when alleles are driven to fixation for each environment type, how much interbreeding takes place?
+
+
+TODO:
+- Add different backgrounds/environments
+- Have Changing selection factors for each environment
+- offspring should spawn at parent location
+
+Roadmap:
+1. Get fish to breed, and be able to determine specific parents                       DONE
+2. Pass alleles from parent to offspring                                              DONE
+3. Add regions with different levels of predation for different colored fish          
+4. Track number of heterozygous fish
